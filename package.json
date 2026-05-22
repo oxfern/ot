@@ -1,0 +1,16 @@
+{
+  "name": "onetab-cli",
+  "version": "0.1.0",
+  "description": "CLI that reads OneTab Chrome extension data directly from LevelDB",
+  "type": "module",
+  "bin": {
+    "onetab": "./bin/onetab.js"
+  },
+  "scripts": {
+    "start": "node bin/onetab.js"
+  },
+  "dependencies": {
+    "classic-level": "^2.0.0",
+    "snappy": "^7.3.3"
+  }
+}
